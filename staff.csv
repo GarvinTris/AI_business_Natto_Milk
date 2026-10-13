@@ -1,0 +1,7 @@
+employee_id,name,branch,shift_start,shift_end,status,check_in_time
+S001,Andi,Cabang A,8:00,16:00,Working,8:02
+S002,Kevin,Cabang A,8:00,16:00,Working,8:05
+S003,Rina,Cabang A,8:00,16:00,Working,8:01
+S004,Budi,Cabang B,8:00,16:00,Working,8:03
+S005,Jessica,Cabang B,8:00,16:00,Working,8:04
+S006,Dimas,Cabang B,8:00,16:00,Working,8:02

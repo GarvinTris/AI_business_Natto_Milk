@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOIR CAFÉ — Signature Coffee & Artisan Snacks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <div class="logo-mark">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="30" r="28" stroke="#C9A84C" stroke-width="1.5"/>
+            <circle cx="30" cy="30" r="22" stroke="#C9A84C" stroke-width="0.5"/>
+            <!-- Coffee bean -->
+            <ellipse cx="30" cy="30" rx="10" ry="14" stroke="#C9A84C" stroke-width="1.2" fill="none"/>
+            <path d="M30 17 Q34 24 30 30 Q26 36 30 43" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+            <!-- Decorative dots -->
+            <circle cx="30" cy="8" r="1.5" fill="#C9A84C"/>
+            <circle cx="52" cy="30" r="1.5" fill="#C9A84C"/>
+            <circle cx="30" cy="52" r="1.5" fill="#C9A84C"/>
+            <circle cx="8" cy="30" r="1.5" fill="#C9A84C"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">NOIR</span>
+          <span class="logo-sub">CAFÉ</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#signature">Signature</a></li>
+        <li><a href="#snacks">Snacks</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#contact">Visit Us</a></li>
+      </ul>
+
+      <a href="#contact" class="nav-cta">Reserve a Seat</a>
+
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-particles" id="particles"></div>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">
+        <span class="eyebrow-line"></span>
+        Est. 2019 · Jakarta
+        <span class="eyebrow-line"></span>
+      </p>
+      <h1 class="hero-title">
+        Where Every Cup<br/>
+        <em>Tells a Story</em>
+      </h1>
+      <p class="hero-desc">
+        Handcrafted signature coffee and artisan snacks, curated for those who<br/>
+        appreciate the quiet luxury of a perfect moment.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#signature" class="btn-primary">Explore Menu</a>
+        <a href="#story" class="btn-ghost">Our Story</a>
+      </div>
+
+      <!-- Floating badges -->
+      <div class="hero-badges">
+        <div class="badge">
+          <span class="badge-num">12+</span>
+          <span class="badge-label">Signature Blends</span>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+          <span class="badge-num">100%</span>
+          <span class="badge-label">Single Origin</span>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+          <span class="badge-num">5★</span>
+          <span class="badge-label">Guest Rating</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ MARQUEE ═══ -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Single Origin Espresso</span><span class="dot">✦</span>
+      <span>Cold Brew Reserve</span><span class="dot">✦</span>
+      <span>Artisan Pastries</span><span class="dot">✦</span>
+      <span>Signature Latte</span><span class="dot">✦</span>
+      <span>Premium Snacks</span><span class="dot">✦</span>
+      <span>Pour Over Ritual</span><span class="dot">✦</span>
+      <span>Seasonal Specials</span><span class="dot">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span>Single Origin Espresso</span><span class="dot">✦</span>
+      <span>Cold Brew Reserve</span><span class="dot">✦</span>
+      <span>Artisan Pastries</span><span class="dot">✦</span>
+      <span>Signature Latte</span><span class="dot">✦</span>
+      <span>Premium Snacks</span><span class="dot">✦</span>
+      <span>Pour Over Ritual</span><span class="dot">✦</span>
+      <span>Seasonal Specials</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ SIGNATURE COFFEE ═══ -->
+  <section class="signature" id="signature">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Our Craft</p>
+        <h2 class="section-title">Signature <em>Coffee</em></h2>
+        <p class="section-desc">Each blend is a carefully composed masterpiece — sourced from the finest highland farms, roasted in-house, and served with precision.</p>
+      </div>
+
+      <div class="coffee-grid">
+
+        <div class="coffee-card featured" data-reveal>
+          <div class="card-badge-tag">Best Seller</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="36" stroke="#C9A84C" stroke-width="1"/>
+              <!-- Cup -->
+              <path d="M24 34 L28 58 Q40 62 52 58 L56 34 Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.05)"/>
+              <!-- Saucer -->
+              <ellipse cx="40" cy="60" rx="20" ry="4" stroke="#C9A84C" stroke-width="1" fill="none"/>
+              <!-- Steam -->
+              <path d="M33 28 Q35 22 33 16" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M40 26 Q42 20 40 14" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M47 28 Q49 22 47 16" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round"/>
+              <!-- Handle -->
+              <path d="M56 40 Q66 40 66 50 Q66 58 56 54" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Noir Espresso</h3>
+            <p class="card-origin">Ethiopia Yirgacheffe · Dark Roast</p>
+            <p class="card-desc">Bold, velvety, and unapologetically complex. A double shot that demands your full attention.</p>
+            <div class="card-notes">
+              <span>Dark Chocolate</span>
+              <span>Smoked Cedar</span>
+              <span>Brown Sugar</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">Rp 42.000</span>
+              <button class="card-order-btn" onclick="openChat('I want to order Noir Espresso')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card" data-reveal>
+          <div class="card-icon">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="36" stroke="#C9A84C" stroke-width="1"/>
+              <!-- Glass -->
+              <path d="M28 25 L31 62 Q40 66 49 62 L52 25 Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.05)"/>
+              <!-- Ice cubes -->
+              <rect x="32" y="38" width="7" height="7" rx="1" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.1)"/>
+              <rect x="41" y="42" width="6" height="6" rx="1" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.1)"/>
+              <!-- Straw -->
+              <line x1="46" y1="22" x2="40" y2="62" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Velvet Cold Brew</h3>
+            <p class="card-origin">Flores Bajawa · Medium Roast · 20hr Steep</p>
+            <p class="card-desc">Silky smooth and naturally sweet. Cold-steeped for twenty hours to unlock every nuance.</p>
+            <div class="card-notes">
+              <span>Caramel</span>
+              <span>Hazelnut</span>
+              <span>Vanilla Finish</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">Rp 52.000</span>
+              <button class="card-order-btn" onclick="openChat('I want to order Velvet Cold Brew')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card" data-reveal>
+          <div class="card-icon">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="36" stroke="#C9A84C" stroke-width="1"/>
+              <!-- Latte art cup -->
+              <ellipse cx="40" cy="50" rx="16" ry="12" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.05)"/>
+              <path d="M24 50 L26 58 Q40 64 54 58 L56 50" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+              <!-- Latte art heart -->
+              <path d="M34 47 Q36 44 40 47 Q44 44 46 47 Q44 52 40 55 Q36 52 34 47Z" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.15)"/>
+              <!-- Steam -->
+              <path d="M36 36 Q38 30 36 24" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M44 36 Q46 30 44 24" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Golden Latte</h3>
+            <p class="card-origin">Toraja Sapan · Light-Medium · Oat Milk</p>
+            <p class="card-desc">A luminous blend of specialty espresso and steamed oat milk, crowned with delicate latte art.</p>
+            <div class="card-notes">
+              <span>Citrus Zest</span>
+              <span>Honey</span>
+              <span>Creamy Oak</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">Rp 58.000</span>
+              <button class="card-order-btn" onclick="openChat('I want to order Golden Latte')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="coffee-card" data-reveal>
+          <div class="card-badge-tag new">New</div>
+          <div class="card-icon">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="40" r="36" stroke="#C9A84C" stroke-width="1"/>
+              <!-- Pour over dripper -->
+              <path d="M28 28 L32 52 Q40 56 48 52 L52 28 Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.05)"/>
+              <line x1="28" y1="28" x2="52" y2="28" stroke="#C9A84C" stroke-width="1.5"/>
+              <!-- Carafe below -->
+              <path d="M33 54 L31 68 Q40 72 49 68 L47 54" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.05)"/>
+              <!-- Water drop -->
+              <path d="M40 36 Q44 42 40 48 Q36 42 40 36Z" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.2)"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Pour Over Reserve</h3>
+            <p class="card-origin">Aceh Gayo · Washed Process · Manual Brew</p>
+            <p class="card-desc">A meditative brewing ritual. Each cup is brewed individually to reveal the coffee's true character.</p>
+            <div class="card-notes">
+              <span>Jasmine</span>
+              <span>Red Apple</span>
+              <span>Earl Grey</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-price">Rp 68.000</span>
+              <button class="card-order-btn" onclick="openChat('I want to order Pour Over Reserve')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section-cta">
+        <a href="#" class="btn-outline" onclick="openChat('Show me the full coffee menu')">View Full Coffee Menu →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ DIVIDER ═══ -->
+  <div class="ornament-divider">
+    <div class="ornament-line"></div>
+    <div class="ornament-icon">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 4 L22 16 L34 16 L24 23 L28 36 L20 29 L12 36 L16 23 L6 16 L18 16 Z" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.1)"/>
+      </svg>
+    </div>
+    <div class="ornament-line"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ SNACKS ═══ -->
+  <section class="snacks" id="snacks">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Artisan Bites</p>
+        <h2 class="section-title">Premium <em>Snacks</em></h2>
+        <p class="section-desc">Every bite is composed to complement your coffee — from flaky morning pastries to decadent afternoon indulgences.</p>
+      </div>
+
+      <div class="snacks-grid">
+
+        <div class="snack-card" data-reveal>
+          <div class="snack-visual">
+            <div class="snack-icon-wrap">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Croissant shape -->
+                <path d="M20 65 Q10 55 15 42 Q25 25 40 28 Q50 30 55 40 Q62 28 75 28 Q88 25 90 42 Q92 55 80 65 Q65 75 50 72 Q35 75 20 65Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.1)"/>
+                <path d="M25 60 Q30 50 40 48 Q50 46 55 52" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+                <path d="M75 60 Q70 50 60 48 Q55 46 55 52" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+                <!-- Layers -->
+                <path d="M35 55 Q45 50 55 55 Q65 50 70 55" stroke="#C9A84C" stroke-width="0.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="snack-body">
+            <h3 class="snack-title">Butter Croissant</h3>
+            <p class="snack-desc">72-layer laminated dough, baked to a shatteringly crisp exterior with a pillowy, buttery interior.</p>
+            <div class="snack-footer">
+              <span class="snack-price">Rp 38.000</span>
+              <button class="snack-order-btn" onclick="openChat('I want to order Butter Croissant')">Add +</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="snack-card featured-snack" data-reveal>
+          <div class="snack-tag">Chef's Pick</div>
+          <div class="snack-visual">
+            <div class="snack-icon-wrap">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Tiramisu slice -->
+                <rect x="20" y="35" width="60" height="40" rx="4" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.08)"/>
+                <!-- Layers -->
+                <line x1="20" y1="50" x2="80" y2="50" stroke="#C9A84C" stroke-width="1"/>
+                <line x1="20" y1="62" x2="80" y2="62" stroke="#C9A84C" stroke-width="1"/>
+                <!-- Top cream texture -->
+                <path d="M25 38 Q40 32 55 38 Q70 32 80 38" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+                <!-- Cocoa dusting dots -->
+                <circle cx="35" cy="44" r="1.5" fill="#C9A84C" opacity="0.6"/>
+                <circle cx="45" cy="42" r="1" fill="#C9A84C" opacity="0.6"/>
+                <circle cx="58" cy="44" r="1.5" fill="#C9A84C" opacity="0.6"/>
+                <circle cx="68" cy="42" r="1" fill="#C9A84C" opacity="0.6"/>
+              </svg>
+            </div>
+          </div>
+          <div class="snack-body">
+            <h3 class="snack-title">Tiramisu Noir</h3>
+            <p class="snack-desc">Espresso-soaked ladyfingers layered with house-made mascarpone, dusted with single-origin cocoa.</p>
+            <div class="snack-footer">
+              <span class="snack-price">Rp 62.000</span>
+              <button class="snack-order-btn" onclick="openChat('I want to order Tiramisu Noir')">Add +</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="snack-card" data-reveal>
+          <div class="snack-visual">
+            <div class="snack-icon-wrap">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Waffle -->
+                <rect x="18" y="22" width="64" height="56" rx="8" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.08)"/>
+                <!-- Grid pattern -->
+                <line x1="18" y1="36" x2="82" y2="36" stroke="#C9A84C" stroke-width="0.8"/>
+                <line x1="18" y1="50" x2="82" y2="50" stroke="#C9A84C" stroke-width="0.8"/>
+                <line x1="18" y1="64" x2="82" y2="64" stroke="#C9A84C" stroke-width="0.8"/>
+                <line x1="32" y1="22" x2="32" y2="78" stroke="#C9A84C" stroke-width="0.8"/>
+                <line x1="50" y1="22" x2="50" y2="78" stroke="#C9A84C" stroke-width="0.8"/>
+                <line x1="68" y1="22" x2="68" y2="78" stroke="#C9A84C" stroke-width="0.8"/>
+                <!-- Syrup drizzle -->
+                <path d="M35 22 Q30 18 28 14" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M55 22 Q50 15 52 10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="snack-body">
+            <h3 class="snack-title">Belgian Waffle</h3>
+            <p class="snack-desc">Crispy pearl-sugar Belgian waffle served warm, drizzled with dark chocolate and seasonal berry compote.</p>
+            <div class="snack-footer">
+              <span class="snack-price">Rp 55.000</span>
+              <button class="snack-order-btn" onclick="openChat('I want to order Belgian Waffle')">Add +</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="snack-card" data-reveal>
+          <div class="snack-visual">
+            <div class="snack-icon-wrap">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Canelé -->
+                <path d="M35 25 Q40 15 50 15 Q60 15 65 25 L70 75 Q60 82 50 82 Q40 82 30 75 Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.08)"/>
+                <!-- Ridges -->
+                <path d="M38 30 L36 68" stroke="#C9A84C" stroke-width="0.7"/>
+                <path d="M43 27 L41 72" stroke="#C9A84C" stroke-width="0.7"/>
+                <path d="M50 26 L50 73" stroke="#C9A84C" stroke-width="0.7"/>
+                <path d="M57 27 L59 72" stroke="#C9A84C" stroke-width="0.7"/>
+                <path d="M62 30 L64 68" stroke="#C9A84C" stroke-width="0.7"/>
+                <!-- Top shine -->
+                <ellipse cx="50" cy="22" rx="8" ry="4" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.2)"/>
+              </svg>
+            </div>
+          </div>
+          <div class="snack-body">
+            <h3 class="snack-title">Canelé Bordelais</h3>
+            <p class="snack-desc">A Bordeaux classic — rum and vanilla custard with a lacquered caramel crust. Paired exquisitely with espresso.</p>
+            <div class="snack-footer">
+              <span class="snack-price">Rp 45.000</span>
+              <button class="snack-order-btn" onclick="openChat('I want to order Canelé Bordelais')">Add +</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="snack-card" data-reveal>
+          <div class="snack-visual">
+            <div class="snack-icon-wrap">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Tart -->
+                <ellipse cx="50" cy="55" rx="32" ry="12" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.08)"/>
+                <path d="M18 55 L18 65 Q18 78 50 78 Q82 78 82 65 L82 55" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.05)"/>
+                <!-- Fruit decoration -->
+                <circle cx="40" cy="52" r="5" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.15)"/>
+                <circle cx="52" cy="50" r="5" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.15)"/>
+                <circle cx="62" cy="53" r="4" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.15)"/>
+                <!-- Glaze shine -->
+                <path d="M38 48 Q50 44 62 48" stroke="#C9A84C" stroke-width="0.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="snack-body">
+            <h3 class="snack-title">Earl Grey Tart</h3>
+            <p class="snack-desc">Silky Earl Grey custard in a buttery shortcrust shell, topped with fresh seasonal berries and edible gold.</p>
+            <div class="snack-footer">
+              <span class="snack-price">Rp 58.000</span>
+              <button class="snack-order-btn" onclick="openChat('I want to order Earl Grey Tart')">Add +</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="snack-card" data-reveal>
+          <div class="snack-visual">
+            <div class="snack-icon-wrap">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Eclair -->
+                <path d="M15 45 Q15 35 25 35 L75 35 Q85 35 85 45 L85 60 Q85 70 75 70 L25 70 Q15 70 15 60 Z" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.08)"/>
+                <!-- Chocolate glaze -->
+                <path d="M20 38 Q50 30 80 38 Q80 45 50 43 Q20 45 20 38Z" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.2)"/>
+                <!-- Cream peek -->
+                <path d="M25 55 Q50 60 75 55" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+                <!-- Gold drizzle lines -->
+                <path d="M35 35 Q40 28 38 22" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+                <path d="M55 35 Q58 28 60 22" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="snack-body">
+            <h3 class="snack-title">Chocolate Éclair</h3>
+            <p class="snack-desc">Choux pastry filled with Valrhona chocolate cream, glazed with rich dark chocolate and edible gold leaf.</p>
+            <div class="snack-footer">
+              <span class="snack-price">Rp 48.000</span>
+              <button class="snack-order-btn" onclick="openChat('I want to order Chocolate Éclair')">Add +</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ STORY ═══ -->
+  <section class="story" id="story">
+    <div class="story-bg"></div>
+    <div class="container">
+      <div class="story-inner">
+        <div class="story-text" data-reveal>
+          <p class="section-eyebrow">Our Philosophy</p>
+          <h2 class="story-title">Crafted with<br/><em>Intention</em></h2>
+          <p class="story-body">NOIR CAFÉ was born from a single conviction — that a great cup of coffee is not merely a drink, but a ritual. We source directly from small-batch highland farms across Indonesia, roast in-house, and serve with a level of care that honors both the farmer and the guest.</p>
+          <p class="story-body">Every detail — the temperature of the water, the grind, the pour — is calibrated to reveal what we believe coffee is capable of. Not just fuel, but poetry.</p>
+          <div class="story-stats">
+            <div class="stat">
+              <span class="stat-num">7</span>
+              <span class="stat-label">Partner Farms</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4</span>
+              <span class="stat-label">Island Origins</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5yrs</span>
+              <span class="stat-label">Of Craft</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn-primary">Visit Our Space</a>
+        </div>
+
+        <div class="story-visual" data-reveal>
+          <div class="story-frame">
+            <div class="frame-inner">
+              <div class="frame-content">
+                <!-- Decorative coffee composition -->
+                <svg viewBox="0 0 320 400" fill="none" xmlns="http://www.w3.org/2000/svg" class="story-svg">
+                  <!-- Background circle -->
+                  <circle cx="160" cy="200" r="140" stroke="#C9A84C" stroke-width="0.5" stroke-dasharray="4 6"/>
+                  <circle cx="160" cy="200" r="110" stroke="#C9A84C" stroke-width="0.3"/>
+
+                  <!-- Large cup -->
+                  <path d="M90 160 L100 270 Q160 290 220 270 L230 160 Z" stroke="#C9A84C" stroke-width="2" fill="rgba(201,168,76,0.06)"/>
+                  <!-- Cup rim -->
+                  <ellipse cx="160" cy="160" rx="70" ry="14" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.1)"/>
+                  <!-- Saucer -->
+                  <ellipse cx="160" cy="278" rx="80" ry="14" stroke="#C9A84C" stroke-width="1.5" fill="rgba(201,168,76,0.08)"/>
+                  <!-- Latte art -->
+                  <path d="M130 195 Q140 180 160 188 Q180 180 190 195 Q180 215 160 225 Q140 215 130 195Z" stroke="#C9A84C" stroke-width="1.2" fill="rgba(201,168,76,0.15)"/>
+                  <path d="M148 193 Q160 185 172 193" stroke="#C9A84C" stroke-width="0.8" stroke-linecap="round"/>
+                  <!-- Handle -->
+                  <path d="M230 185 Q255 185 255 205 Q255 240 230 235" stroke="#C9A84C" stroke-width="2" fill="none"/>
+                  <!-- Steam tendrils -->
+                  <path d="M135 148 Q130 130 135 112" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M160 144 Q155 125 160 106" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M185 148 Q190 130 185 112" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+                  <!-- Coffee beans scattered -->
+                  <ellipse cx="70" cy="240" rx="10" ry="14" stroke="#C9A84C" stroke-width="1.2" fill="rgba(201,168,76,0.1)" transform="rotate(-30 70 240)"/>
+                  <path d="M63 236 Q70 246 77 236" stroke="#C9A84C" stroke-width="0.8"/>
+                  <ellipse cx="260" cy="150" rx="10" ry="14" stroke="#C9A84C" stroke-width="1.2" fill="rgba(201,168,76,0.1)" transform="rotate(20 260 150)"/>
+                  <path d="M253 146 Q260 156 267 146" stroke="#C9A84C" stroke-width="0.8"/>
+                  <ellipse cx="255" cy="310" rx="8" ry="11" stroke="#C9A84C" stroke-width="1.2" fill="rgba(201,168,76,0.1)" transform="rotate(-15 255 310)"/>
+                  <!-- Corner ornaments -->
+                  <path d="M30 30 L50 30 L50 50" stroke="#C9A84C" stroke-width="1" fill="none"/>
+                  <path d="M290 30 L270 30 L270 50" stroke="#C9A84C" stroke-width="1" fill="none"/>
+                  <path d="M30 370 L50 370 L50 350" stroke="#C9A84C" stroke-width="1" fill="none"/>
+                  <path d="M290 370 L270 370 L270 350" stroke="#C9A84C" stroke-width="1" fill="none"/>
+                  <!-- Text -->
+                  <text x="160" y="345" text-anchor="middle" fill="#C9A84C" font-size="11" font-family="Cormorant Garamond, serif" letter-spacing="4">NOIR · CAFÉ</text>
+                </svg>
+              </div>
+            </div>
+            <div class="frame-quote">
+              <p>"Life is too short for mediocre coffee."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ TESTIMONIALS ═══ -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Guest Voices</p>
+        <h2 class="section-title">What They <em>Say</em></h2>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi-card" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The Pour Over Reserve is the best coffee I've had outside of Japan. The attention to detail here is extraordinary."</p>
+          <div class="testi-author">
+            <div class="author-avatar">RN</div>
+            <div>
+              <strong>Rania Nugraha</strong>
+              <span>Coffee Enthusiast, Bandung</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The Tiramisu Noir paired with their Noir Espresso is a ritual I've made part of my weekly life. Absolute perfection."</p>
+          <div class="testi-author">
+            <div class="author-avatar">DK</div>
+            <div>
+              <strong>Dimas Kurniawan</strong>
+              <span>Food Critic, Jakarta</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The ambiance, the music, the coffee — everything at NOIR is calibrated to make you feel like time slows down. Rare."</p>
+          <div class="testi-author">
+            <div class="author-avatar">AS</div>
+            <div>
+              <strong>Amara Silitonga</strong>
+              <span>Architect & Designer, Jakarta</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ CONTACT ═══ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-info" data-reveal>
+          <p class="section-eyebrow">Find Us</p>
+          <h2 class="section-title">Visit Our <em>Space</em></h2>
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                  <circle cx="12" cy="9" r="2.5"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Location</strong>
+                <span>Jl. Kemang Raya No. 42, Kemang<br/>Jakarta Selatan 12730</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 6v6l4 2"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <span>Monday – Friday: 07.00 – 22.00<br/>Saturday – Sunday: 08.00 – 23.00</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.15a16 16 0 006.29 6.29l1.51-1.52a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Reservations</strong>
+                <span>+62 21 7890 1234</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <span>hello@noircafe.id</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap" data-reveal>
+          <form class="contact-form" onsubmit="handleFormSubmit(event)">
+            <h3>Reserve a Seat</h3>
+            <p>Let us know you're coming — we'll have your table ready.</p>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required />
+                <label for="name">Your Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Email Address" required />
+                <label for="email">Email Address</label>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="date" id="date" required />
+                <label for="date">Date</label>
+              </div>
+              <div class="form-group">
+                <select id="guests" required>
+                  <option value="">Number of Guests</option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3-4">3-4 Guests</option>
+                  <option value="5+">5+ Guests</option>
+                </select>
+                <label for="guests">Guests</label>
+              </div>
+            </div>
+            <div class="form-group full">
+              <textarea id="note" placeholder="Special requests or notes..." rows="3"></textarea>
+              <label for="note">Notes</label>
+            </div>
+            <button type="submit" class="btn-primary full-btn">Confirm Reservation</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="30" cy="30" r="28" stroke="#C9A84C" stroke-width="1.5"/>
+              <circle cx="30" cy="30" r="22" stroke="#C9A84C" stroke-width="0.5"/>
+              <ellipse cx="30" cy="30" rx="10" ry="14" stroke="#C9A84C" stroke-width="1.2" fill="none"/>
+              <path d="M30 17 Q34 24 30 30 Q26 36 30 43" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+              <circle cx="30" cy="8" r="1.5" fill="#C9A84C"/>
+              <circle cx="52" cy="30" r="1.5" fill="#C9A84C"/>
+              <circle cx="30" cy="52" r="1.5" fill="#C9A84C"/>
+              <circle cx="8" cy="30" r="1.5" fill="#C9A84C"/>
+            </svg>
+            <div>
+              <span class="logo-name">NOIR</span>
+              <span class="logo-sub">CAFÉ</span>
+            </div>
+          </div>
+          <p>Where every cup tells a story.<br/>Jakarta's premium specialty café.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="#signature">Signature Coffee</a></li>
+              <li><a href="#snacks">Artisan Snacks</a></li>
+              <li><a href="#" onclick="openChat('Show me seasonal specials')">Seasonal Specials</a></li>
+              <li><a href="#" onclick="openChat('Do you have any promotions?')">Promotions</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Visit</h4>
+            <ul>
+              <li><a href="#contact">Reservations</a></li>
+              <li><a href="#contact">Location</a></li>
+              <li><a href="#story">Our Story</a></li>
+              <li><a href="#" onclick="openChat('Tell me about private events at NOIR')">Private Events</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">@noircafe.id</a></li>
+              <li><a href="#">hello@noircafe.id</a></li>
+              <li><a href="#">+62 21 7890 1234</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 NOIR CAFÉ. All rights reserved.</p>
+        <p>Crafted with care in Jakarta.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════ CHATBOT ═══ -->
+
+  <!-- Floating Chat Button -->
+  <button class="chat-fab" id="chatFab" onclick="toggleChat()" aria-label="Open Chat Assistant">
+    <div class="chat-fab-icon chat-icon-closed">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="#0D0D0D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="8.5" cy="10.5" r="1" fill="#0D0D0D"/>
+        <circle cx="12" cy="10.5" r="1" fill="#0D0D0D"/>
+        <circle cx="15.5" cy="10.5" r="1" fill="#0D0D0D"/>
+      </svg>
+    </div>
+    <div class="chat-fab-icon chat-icon-open" style="display:none;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#0D0D0D" stroke-width="2.5" stroke-linecap="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </div>
+    <span class="chat-fab-label">Ask NOIR</span>
+    <div class="chat-fab-pulse"></div>
+  </button>
+
+  <!-- Chat Window -->
+  <div class="chat-window" id="chatWindow" aria-hidden="true">
+    <div class="chat-header">
+      <div class="chat-header-brand">
+        <div class="chat-logo">
+          <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="30" r="28" stroke="#C9A84C" stroke-width="1.5"/>
+            <ellipse cx="30" cy="30" rx="10" ry="14" stroke="#C9A84C" stroke-width="1.2" fill="none"/>
+            <path d="M30 17 Q34 24 30 30 Q26 36 30 43" stroke="#C9A84C" stroke-width="1" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="chat-header-info">
+          <strong>NOIR Assistant</strong>
+          <span class="chat-status"><span class="status-dot"></span>Online</span>
+        </div>
+      </div>
+      <button class="chat-close-btn" onclick="toggleChat()" aria-label="Close chat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <!-- Welcome message -->
+      <div class="chat-msg bot">
+        <div class="msg-avatar">N</div>
+        <div class="msg-bubble">
+          <p>Welcome to <strong>NOIR CAFÉ</strong> ☕</p>
+          <p>I'm your personal assistant. Ask me anything — our menu, reservations, specials, or brewing methods. How can I help you today?</p>
+        </div>
+      </div>
+      <!-- Quick prompts -->
+      <div class="chat-quick-prompts">
+        <button onclick="sendQuick('What are your signature coffees?')">Signature Coffees</button>
+        <button onclick="sendQuick('What snacks do you recommend?')">Snack Picks</button>
+        <button onclick="sendQuick('How do I make a reservation?')">Reservations</button>
+        <button onclick="sendQuick('Tell me about your coffee sourcing')">Our Sourcing</button>
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <div class="chat-input-wrap">
+        <input
+          type="text"
+          id="chatInput"
+          placeholder="Ask about our menu, hours, specials..."
+          autocomplete="off"
+          onkeydown="handleChatKey(event)"
+          aria-label="Chat message"
+        />
+        <button class="chat-send-btn" onclick="sendMessage()" aria-label="Send message">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"/>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        </button>
+      </div>
+      <p class="chat-powered">Powered by NOIR AI · Built on Langflow</p>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

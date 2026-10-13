@@ -1,0 +1,58 @@
+id,message,expected_issue
+1,"Kak lusa mau Dual 3, ambil sendiri sekitar jam 5.",unspecified delivery address details
+2,Mbak aku perlu empat Oat Series - Oreo buat Jumat. Antar jam 11 siang ke Jalan Merdeka. Budget 50 ribu.,natural language date
+3,"Oat Series - Banana 1, croissant satu, antar ke rumah seperti biasa.",natural language date
+4,"Oat Series - Oreo tiga, croissant satu, antar ke rumah seperti biasa.",time ambiguous
+5,"Kak hari Sabtu mau Hazelnut Latte 2, ambil sendiri sekitar jam 5.",address not provided in this chat
+6,Tolong siapkan tiga Magic Latte dan Donat Goaded untuk diambil nanti malam.,unspecified delivery address details
+7,Aku mau Taro 1 ya. Besok sore takeaway.,confirmation required before ordering
+8,"Kak Jumat mau Cappuccino satu, ambil sendiri sekitar jam 5.",natural language date
+9,Aku mau Taro 3 ya. Besok sore takeaway.,time ambiguous
+10,Mbak aku perlu satu Matcha Sea Salt Caramel Latte buat Sabtu. Antar jam 11 siang ke Jalan Merdeka. Budget 100 ribu.,missing exact address and time
+11,"Halo kak, nama saya Doni. Pesan 3 Taro untuk Jumat. Takeaway ya. Budget 70 ribu.",natural language date
+12,Ada Affogato? Mau pesan empat untuk dikirim siang ini.,time ambiguous
+13,Kak Almond Series - Thai Tea ada? Kalau ada mau buat acara Jumat.,missing exact address and time
+14,"Oat Series - Original tiga, croissant satu, antar ke rumah seperti biasa.",time ambiguous
+15,"Kak mau 4 Rum Latte untuk Jumat, kirim ke kantor saya di Multatuli.",missing exact address and time
+16,Tolong siapkan satu Oat Series - Banana dan Donat Goaded untuk diambil nanti malam.,unspecified delivery address details
+17,Kak Oat Series - Original ada? Kalau ada mau buat acara Jumat.,time ambiguous
+18,Kak Long Black ada? Kalau ada mau buat acara lusa.,unspecified delivery address details
+19,Ada Almond Series - Green Tea? Mau pesan 1 untuk dikirim siang ini.,natural language date
+20,Aku mau Red Velvet 2 ya. Besok sore takeaway.,missing exact pickup time
+21,"Halo kak, nama saya Budi. Pesan 3 Baileys Latte untuk hari Sabtu. Takeaway ya. Budget 60 ribu.",natural language date
+22,"Minta satu Caffe Mocha ya kak, tapi tolong diantar cepat ke alamat lama.",missing exact address and time
+23,"Minta 2 Almond Series - Banana ya kak, tapi tolong diantar cepat ke alamat lama.",natural language date
+24,Mbak aku perlu tiga Almond Series - Original buat lusa. Antar jam 11 siang ke Jalan Merdeka. Budget 50 ribu.,natural language date
+25,Mbak aku perlu 1 Flat White buat Sabtu. Antar jam 11 siang ke Jalan Merdeka. Budget 100 ribu.,relatively complete
+26,Aku mau Donat Goaded 1 ya. Besok sore takeaway.,missing budget
+27,"Minta 3 Matcha Latte ya kak, tapi tolong diantar cepat ke alamat lama.",missing exact address and time
+28,Mbak aku perlu empat Oat Series - Chocolate buat lusa. Antar jam 11 siang ke Jalan Merdeka. Budget 80 ribu.,missing budget
+29,"Halo kak, nama saya Dewi. Pesan 3 Almond Series - Oreo untuk nanti malam. Takeaway ya. Budget 80 ribu.",missing budget
+30,Mbak aku perlu tiga Almond Series - Original buat Jumat. Antar jam 11 siang ke Jalan Merdeka. Budget 60 ribu.,natural language date
+31,Tolong siapkan 2 Almond Series - Matcha dan Donat Goaded untuk diambil nanti malam.,natural language date
+32,Mbak aku perlu satu Almond Series - Matcha buat Jumat. Antar jam 11 siang ke Jalan Merdeka. Budget 50 ribu.,missing exact address and time
+33,"Kak mau 4 Almond Series - Thai Tea untuk lusa, kirim ke kantor saya di Multatuli.",address not provided in this chat
+34,"Taro tiga, croissant satu, antar ke rumah seperti biasa.",unspecified delivery address details
+35,Ada Hazelnut Latte? Mau pesan 2 untuk dikirim siang ini.,unspecified delivery address details
+36,"Minta satu Affogato ya kak, tapi tolong diantar cepat ke alamat lama.",missing exact address and time
+37,Ada Almond Series - Green Tea? Mau pesan 1 untuk dikirim siang ini.,missing budget
+38,Ada Almond Series - Original? Mau pesan satu untuk dikirim siang ini.,relatively complete
+39,Mbak aku perlu 4 Caffe Mocha buat besok. Antar jam 11 siang ke Jalan Merdeka. Budget 70 ribu.,time ambiguous
+40,Aku mau Matcha Strawberry Latte 4 ya. Besok sore takeaway.,missing budget
+41,Kak Almond Series - Strawberry ada? Kalau ada mau buat acara besok jam 10 pagi.,missing exact address and time
+42,Tolong siapkan dua Cappuccino dan Donat Goaded untuk diambil nanti malam.,unspecified delivery address details
+43,"Kak mau 1 Oat Series - Strawberry untuk besok, kirim ke kantor saya di Multatuli.",quantity date time fulfillment unclear
+44,Mbak aku perlu dua Caramel Macchiato buat besok. Antar jam 11 siang ke Jalan Merdeka. Budget 100 ribu.,time ambiguous
+45,"Halo kak, nama saya Eko. Pesan 3 Donat Goaded untuk siang ini. Takeaway ya. Budget 70 ribu.",missing budget
+46,Kak Matcha Sea Salt Caramel Latte ada? Kalau ada mau buat acara besok jam 10 pagi.,missing exact address and time
+47,"Kak siang ini mau Oat Series - Original 4, ambil sendiri sekitar jam 5.",missing exact address and time
+48,"Kak mau 3 Americano untuk Sabtu, kirim ke kantor saya di Multatuli.",relatively complete
+49,"Kak minggu depan mau Red Velvet 1, ambil sendiri sekitar jam 5.",time ambiguous
+50,"Almond Series - Chocolate dua, croissant satu, antar ke rumah seperti biasa.",relatively complete
+51,"Kak mau 4 Flat White untuk Sabtu, kirim ke kantor saya di Multatuli.",missing budget
+52,Aku mau Americano 4 ya. Besok sore takeaway.,quantity date time fulfillment unclear
+53,Aku mau Strawberry Cream Milk 1 ya. Besok sore takeaway.,quantity date time fulfillment unclear
+54,Aku mau Matcha Sea Salt Caramel Latte 3 ya. Besok sore takeaway.,relatively complete
+55,"Kak siang ini mau Matcha Strawberry Latte 2, ambil sendiri sekitar jam 5.",confirmation required before ordering
+56,Ada Magic Latte? Mau pesan tiga untuk dikirim siang ini.,natural language date
+57,"Americano 4, croissant satu, antar ke rumah seperti biasa.",missing budget
